@@ -13,12 +13,9 @@ class App {
         List<String> list2 = new ArrayList<>(List.of(word.toLowerCase().split("")));
 
         for (String s : list1) {
-            System.out.println("element of list: " + s);
             list2.remove(s);
         }
         return list2.size() == 0;
     }
 }
-
-
 //END
